@@ -18,6 +18,7 @@ namespace LoginWebApp.Models
 
         public int AddUser(string UserID, string password)
         {
+            //DB에 Insert하는 query
             SqlCommand cmd = new SqlCommand("WriteUsers", conn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@UserID", UserID);
@@ -27,7 +28,7 @@ namespace LoginWebApp.Models
             var result = cmd.ExecuteNonQuery();
             conn.Close();
 
-            return result; //0 or 1
+            return result; //0 or 1(0 : Insert 안됨, 1 : Insert 됨)
         }
 
         internal bool IsCorrectUser(string userID, string password)
