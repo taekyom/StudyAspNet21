@@ -35,5 +35,21 @@ namespace Helpers.Test
             var actual = (5 + 5);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void IsPhotoTest()
+        {
+            var imagePath = @"C:\Sources\GitRepository\StudyDesktopApp\WPFApp\WpfAdvBank\packages\Newtonsoft.Json.13.0.1";
+            bool result = BoardLibrary.IsPhoto(imagePath);
+            Assert.IsTrue(result, "file extension must be png, jpg, gif"); //imagepath 주소에 확장자 없으면 istrue일때 테스트 실패, isfalse면 테스트 성공
+        }
+        [TestMethod]
+        public void IsNotPhotoTest()
+        {
+            var imagePath = @"C:\Sources\GitRepository\StudyDesktopApp\WPFApp\WpfAdvBank\packages\Newtonsoft.Json.13.0.1";
+            bool result = BoardLibrary.IsPhoto(imagePath);
+            Assert.IsFalse(result, "file extension must be png, jpg, gif"); //imagepath 주소에 확장자 없으면 istrue일때 테스트 실패, isfalse면 테스트 성공
+
+        }
     }
 }
