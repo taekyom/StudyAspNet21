@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicMVCWebApp", "BasicMVCW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbWebApp", "DbWebApp\DbWebApp.csproj", "{844BEF7E-AA16-4335-BC11-583C04BA0E0F}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVCWebLab.Database", "MVCWebLab.Database\MVCWebLab.Database.sqlproj", "{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListWebApp", "TodoListWebApp\TodoListWebApp.csproj", "{0FCDAC3B-2020-426E-8542-066C3D949FB9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPITestApp", "RestAPITestApp\RestAPITestApp.csproj", "{35B33483-6826-4117-9A96-DBB6A8D075D9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortfolio", "MyPortpolio\MyPortfolio.csproj", "{69A24E3D-60EF-4C4C-A83B-B02E08FECE86}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TotalDatabase", "TotalDatabase\TotalDatabase.sqlproj", "{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +29,6 @@ Global
 		{844BEF7E-AA16-4335-BC11-583C04BA0E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844BEF7E-AA16-4335-BC11-583C04BA0E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844BEF7E-AA16-4335-BC11-583C04BA0E0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B65FB3E-0351-422F-A45B-1DC37AAC28C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{0FCDAC3B-2020-426E-8542-066C3D949FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0FCDAC3B-2020-426E-8542-066C3D949FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FCDAC3B-2020-426E-8542-066C3D949FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +41,12 @@ Global
 		{69A24E3D-60EF-4C4C-A83B-B02E08FECE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A24E3D-60EF-4C4C-A83B-B02E08FECE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A24E3D-60EF-4C4C-A83B-B02E08FECE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B6807F-E9C4-43E8-A5D4-AAFAE74BF042}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
